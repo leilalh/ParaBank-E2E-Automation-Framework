@@ -11,10 +11,10 @@ public class LoginPage {
     private WebDriverWait wait;
 
 
-    By username = By.cssSelector("input[name='username']");
-    By password = By.cssSelector("input[name='password']");
-    By login = By.cssSelector("input[value='Log In']");
-    By register = By.linkText("Register");
+    private By username = By.cssSelector("input[name='username']");
+    private By password = By.cssSelector("input[name='password']");
+    private By login = By.cssSelector("input[value='Log In']");
+    private By register = By.linkText("Register");
 
     public LoginPage(WebDriver driver, WebDriverWait wait){
         this.driver = driver;
